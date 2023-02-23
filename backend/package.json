@@ -1,0 +1,20 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",
+  "description": "Learning GraphQl",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "David Raphi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

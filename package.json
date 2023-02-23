@@ -1,0 +1,20 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",
+  "description": "Learning GraphQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "author": "David Raphi",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
